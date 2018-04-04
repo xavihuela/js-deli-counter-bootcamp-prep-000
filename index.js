@@ -10,7 +10,6 @@ function currentLine(katzDeliLine)
   if (katzDeliLine === 0)
   {
     response.push("empty.")
-    return response
   }
   else
   {
@@ -24,7 +23,8 @@ function currentLine(katzDeliLine)
     }
     
     response.push(".")
-    
-    return response
   }
+  finalresponse = response.join()
+    
+  return finalresponse
 }
