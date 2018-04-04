@@ -24,7 +24,7 @@ function currentLine(katzDeliLine)
     
     response.push(".")
   }
-  finalresponse = response.join('')
+  var finalresponse = response.join('')
     
   return finalresponse
 }
