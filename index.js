@@ -7,7 +7,7 @@ function currentLine(katzDeliLine)
 {
   var response = ["The line is currently "]
   
-  if (katzDeliLine === 0)
+  if (katzDeliLine.length === 0)
   {
     response.push("empty.")
   }
