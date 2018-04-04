@@ -13,10 +13,10 @@ function currentLine(katzDeliLine)
   }
   else
   {
-  
+    response.push(": ")
+    
     for(let i = 0; i < katzDeliLine.length; i++)
     {
-      response.push(": ")
       response.push(i+1)
       response.push(". ")
       response.push(katzDeliLine[i])
