@@ -5,17 +5,18 @@ function takeANumber(katzDeliLine,name){
 
 function currentLine(katzDeliLine)
 {
-  var response = ["The line is currently "]
+  var response = ["The line is currently"]
   
   if (katzDeliLine.length === 0)
   {
-    response.push("empty.")
+    response.push(" empty.")
   }
   else
   {
   
     for(let i = 0; i < katzDeliLine.length; i++)
     {
+      response.push(": ")
       response.push(i+1)
       response.push(". ")
       response.push(katzDeliLine[i])
