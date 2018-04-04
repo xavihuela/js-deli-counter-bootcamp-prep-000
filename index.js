@@ -25,8 +25,6 @@ function currentLine(katzDeliLine)
         response.push(", ")
       }
     }
-    
-    response.push(".")
   }
   var finalresponse = response.join('')
     
