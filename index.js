@@ -5,12 +5,21 @@ function takeANumber(katzDeliLine,name){
 
 function currentLine(katzDeliLine)
 {
-  for(let i = 0; i < katzDeliLine.length; i++)
+  var response = ["The line is currently"]
+  
+  if katzDeliLine == 0
   {
-    // iteratively get number and name from katzDeliLine array
+    response.push(" empty.")
   }
+  else
+  {
   
+    for(let i = 0; i < katzDeliLine.length; i++)
+    {
+      
+    }
   
+  }
   
   return 
 }
