@@ -24,6 +24,7 @@ function currentLine(katzDeliLine)
       {
         response.push(", ")
       }
+    }
     
     response.push(".")
   }
