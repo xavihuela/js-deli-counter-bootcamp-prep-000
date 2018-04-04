@@ -19,7 +19,7 @@ function currentLine(katzDeliLine)
     {
       response.push(i+1)
       response.push(". ")
-      response.push(katzDeliLine)
+      response.push(katzDeliLine[i])
       response.push(", ")
     }
     
