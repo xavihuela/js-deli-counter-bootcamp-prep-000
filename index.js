@@ -20,8 +20,10 @@ function currentLine(katzDeliLine)
       response.push(i+1)
       response.push(". ")
       response.push(katzDeliLine[i])
-      response.push(", ")
-    }
+      if (i < katzDeliLine.length-1)
+      {
+        response.push(", ")
+      }
     
     response.push(".")
   }
